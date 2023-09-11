@@ -1,0 +1,22 @@
+
+7
+java:S1220""Move this file to a named package.8αέν›§1
+D
+java:S2189""Add an end condition to this loop.(οÿÿÿÿÿ8ÿέν›§1
+g
+java:S1854
+"JRemove this useless assignment to local variable "prototypeGamingPattern".(Κσ…8…ήν›§1
+S
+java:S2440
+"6Remove this instantiation of "PrototypeGamingPattern".(Κσ…8”ρω§1
+X
+java:S1481
+";Remove this unused "prototypeGamingPattern" local variable.(Κσ…8‰ήν›§1
+L	java:S106"+Replace this use of System.out by a logger.(ΫωδΎϋÿÿÿÿ8‘ήν›§1
+L	java:S106"+Replace this use of System.out by a logger.(Λλƒ­ώÿÿÿÿ8’ήν›§1
+G	java:S106"+Replace this use of System.out by a logger.(σΤ8“ήν›§1
+G	java:S106"+Replace this use of System.out by a logger.(Ομξ8”ήν›§1
+G	java:S106"+Replace this use of System.out by a logger.(Υ©¥8•ήν›§1
+L	java:S106"+Replace this use of System.out by a logger.(™ΎΑώÿÿÿÿ8–ήν›§1
+X	java:S125%"<This block of commented-out lines of code should be removed.(ÒΝΘρ8ήν›§1
+]	java:S125'"<This block of commented-out lines of code should be removed.(‚έΫωÿÿÿÿ8ήν›§1

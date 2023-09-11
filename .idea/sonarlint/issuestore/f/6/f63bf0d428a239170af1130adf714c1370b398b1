@@ -1,0 +1,6 @@
+
+v	java:S116"URename this field "_4KDisplay" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úèæüÿÿÿÿ8€ñœœ§1
+x	java:S116"WRename this field "_8KVRDisplay" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òí»ƒıÿÿÿÿ8€ñœœ§1
+G	java:S106"+Replace this use of System.out by a logger.(ÿâ8…ñœœ§1
+G	java:S106"+Replace this use of System.out by a logger.(»À‘›8…ñœœ§1
+L	java:S106"+Replace this use of System.out by a logger.(«…œÛıÿÿÿÿ8†ñœœ§1
