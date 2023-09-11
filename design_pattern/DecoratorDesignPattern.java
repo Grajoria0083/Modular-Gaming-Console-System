@@ -6,12 +6,10 @@ public abstract class DecoratorDesignPattern extends Game {
 
     Game game;
 
-    public DecoratorDesignPattern() {
-
+    public DecoratorDesignPattern(Game game) {
+        this.game = game;
     }
 
-
-    public abstract Game update(Game game);
-//
+    public abstract Game update();
 
 }

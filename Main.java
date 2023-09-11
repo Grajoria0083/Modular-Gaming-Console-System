@@ -41,8 +41,8 @@ public class Main {
                     System.out.println("3 Display");
 
                     ComponantFactoryDesignPattern componantFactoryDesignPattern = new ComponantFactoryDesignPattern();
-                    DecoratorDesignPattern decoratorDesignPattern = componantFactoryDesignPattern.getComponantObj(sc.nextInt());
-                    decoratorDesignPattern.update(game);
+                    DecoratorDesignPattern decoratorDesignPattern = componantFactoryDesignPattern.getComponantObj(game,sc.nextInt());
+                    decoratorDesignPattern.update();
                     game.updatePrice();
                     System.out.println("updated game"+game);
                 }

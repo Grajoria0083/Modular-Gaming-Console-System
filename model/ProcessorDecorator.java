@@ -6,12 +6,13 @@ import game_util.GameUtil;
 public class ProcessorDecorator extends DecoratorDesignPattern {
 
     Game game;
-    public ProcessorDecorator() {
-        super();
+    public ProcessorDecorator(Game game) {
+        super(game);
+        this.game = game;
     }
 
     @Override
-    public Game update(Game game) {
+    public Game update() {
         game.setProcessor(GameUtil.selectProcessor());
         game.setProcessorCost(GameUtil.getProcesserCost(game.getProcessor()));
         return game;

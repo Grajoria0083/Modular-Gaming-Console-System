@@ -6,12 +6,16 @@ import game_util.GameUtil;
 public class ControllerDecorator extends DecoratorDesignPattern {
 
     Game game;
-    public ControllerDecorator() {
-        super();
+
+    public ControllerDecorator(Game game) {
+        super(game);
+        this.game = game;
+
     }
 
+
     @Override
-    public Game update(Game game) {
+    public Game update() {
         game.setController(GameUtil.selectController());
         game.setControllerCost(GameUtil.getControllerCost(game.getController()));
         return game;
